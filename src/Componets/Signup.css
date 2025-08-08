@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/Background-img.png');
+  display: flex;
+  background-size: cover;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+.signup-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 600px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.l-section {
+  background-color: #084b3e;
+  padding: 32px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 260px;
+  max-width: 400px;
+  
+}
+
+.logo{
+  
+  width: 180px;
+  margin-bottom: 40px;
+}
+
+h1 {
+    color: #f9e2ba;
+    font-size: 2.5rem;
+    font-weight: 600;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.r-section {
+  flex: 1;
+  background-color: #fff;
+  padding: 50px 140px 0px 60px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  min-width: 0;
+}
+ h2 {
+  font-size: 2rem;
+  color: #232323;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 421px;
+  font-family: poopins, Mulish, sans-serif;
+
+}
+
+.signup-form {
+   
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ label {
+  color: #120101;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  font-family: 'poppins', 'Mulish', sans-serif;
+  
+}
+
+input {
+  
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #1c1919;
+  background: transparent;
+  font-size: 1rem;
+  outline: none;
+}
+ input:focus {
+  border-bottom-color: #00bfa5;
+}
+
+ button {
+  height: 80px;
+  padding: 16px 32px;
+  background-color: #00c38b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+ button:hover {
+  background-color: #00b44b;
+}
+
+p{
+  
+  font-size: 1rem;
+  font-weight: 700;
+  color: #bdbdbd;
+}
+
+ a {
+  color: #19b07e;
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .signup-container {
+    max-width: 100%;
+    flex-direction: column;
+    min-height: auto; 
+  }
+
+  .l-section {
+    height: auto; 
+    max-width: 100%;
+    padding: 20px;
+    align-items: center; 
+    text-align: center;
+  }
+
+   h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .r-section {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    height: 60px;
+    font-size: 1.1rem;
+  }
+
+  input {
+    font-size: 0.9rem;
+  }
+
+  .signup-form {
+    gap: 10px;
+  }
+}
