@@ -1,5 +1,5 @@
 import React from 'react';
-import './Signup.css';
+import '../App.css';
 import logo from '../assets/logo.png';
 import {useForm} from 'react-hook-form';
 
