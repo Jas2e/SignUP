@@ -17,3 +17,18 @@ src
 ├── App.jsx        # Main app component
 ├── main.jsx       # Entry point for React
 ```
+
+## 🛠 Setup & Installation
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/Jas2e/SignUP.git
+
+# 2️⃣ Go into the project folder
+cd SignUP
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Start the development server
+npm run dev
